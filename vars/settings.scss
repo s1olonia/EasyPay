@@ -1,0 +1,32 @@
+body {
+    font-family: 'Lexend';
+    font-style: normal;
+}
+
+.container {
+    width: 100%;
+    //? max-width: 1440px;
+    max-width: 1510px;
+
+    .all_in { 
+        display: flex;
+        gap: 40px;
+        width: 100%;
+
+        .d2 {
+            width: 100%;
+        }
+        .d3 {
+        }
+    }
+
+}
+.wrapper {
+    padding-top: 22px;
+}
+
+h1, h3, p, span {
+    margin: 0;
+}
+
+a { text-decoration: none; }

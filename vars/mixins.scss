@@ -1,0 +1,26 @@
+@mixin btn {
+    cursor: pointer;
+    border: 0;
+    border-radius: 10px;
+    width: 174px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@mixin gap_bal {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+@mixin qt_inputs {
+    background-color: var(--silver);
+    padding: 20px;
+    width: 100%;
+    height: 72px;
+    border: 0;
+    border-radius: 12px;
+    outline: none;
+}
